@@ -1,0 +1,17 @@
+{
+  "name": "json2html",
+  "version": "1.0.0",
+  "description": "A simple tool to convert JavaScript Object Notation (JSON) to HyperText Markup Language (HTML) table for presentation.",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-json2html": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hadiwinata Kuo & Hendri Harmoko",
+  "license": "ISC"
+}
