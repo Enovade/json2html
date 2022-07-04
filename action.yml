@@ -1,0 +1,11 @@
+name: "JSON-to-HTML"
+description: "Converts JSON to HTML"
+author: "Hadiwinata Kuo & Hendri Harmoko"
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
+
+branding:
+  color: "blue"
+  icon: "refresh-cw"

@@ -4,8 +4,7 @@
   "description": "A simple tool to convert JavaScript Object Notation (JSON) to HyperText Markup Language (HTML) table for presentation.",
   "main": "server.js",
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "@actions/core": "^1.9.0"
   },
   "devDependencies": {},
   "scripts": {
