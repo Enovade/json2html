@@ -1,7 +1,14 @@
 name: "JSON-to-HTML"
 description: "Converts JSON to HTML"
 author: "Hadiwinata Kuo & Hendri Harmoko"
-
+inputs:
+  json:
+    description: 'URL for SPLaSK Application'
+    required: true
+  
+outputs:
+  htmloutput: 
+    description: 'The results'
 runs:
   using: "node16"
   main: "dist/index.js"
